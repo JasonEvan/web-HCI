@@ -41,7 +41,6 @@ body {
 #judul {
     color: var(--orange);
     font-family: var(--font-secondary);
-    font-weight: bold;
     font-size: 2rem;
     margin-top: 0;
 }
@@ -58,4 +57,15 @@ body {
 .menu {
     width: 6rem;
     margin-right: 0.5rem;
+}
+
+#register {
+    background-color: var(--orange);
+    color: var(--warna-hitam);
+    font-size: large;
+    font-family: var(--font-secondary);
+    border: 1px solid #000;
+    border-radius: 40%;
+    width: 7rem;
+    height: 3rem;
 }
