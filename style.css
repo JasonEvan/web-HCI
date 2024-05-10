@@ -112,3 +112,14 @@ body {
     font-size: 1rem;
     margin-top: 0.5rem;
 }
+
+#promo {
+    font-family: var(--font-utama);
+    font-size: 1.5rem;
+    color: var(--warna-hitam);
+    background-color: var(--orange);
+}
+
+#promo > span {
+    margin-left: 1rem;
+}
