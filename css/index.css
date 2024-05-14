@@ -1,0 +1,116 @@
+*, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 200vh;
+    background-color: var(--putih);
+}
+
+:root {
+    --warna-hitam: #031B3D;
+    --orange: #A5826C;
+    --putih: #F7E6DC;
+    --font-utama: 'Poppins', sans-serif;
+    --font-secondary: 'Langar'; 
+}
+
+svg {
+    display: block;
+}
+
+#recommend-section {
+    margin-top: 9rem;
+}
+
+#Recommendation {
+    font-family: var(--font-utama);
+    font-size: 1.5rem;
+    color: var(--warna-hitam);
+    margin-left: 3rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    width: 15rem;
+    height: 18rem;
+    padding: 1rem;
+    border-radius: 10%;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    background-color: var(--warna-hitam);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card > img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.card-text {
+    color: var(--orange);
+    font-family: var(--font-utama);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+#promo {
+    font-family: var(--font-utama);
+    font-size: 1.5rem;
+    color: var(--warna-hitam);
+    background-color: var(--orange);
+}
+
+#promo > span {
+    margin-left: 3rem;
+}
+
+#little-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 5px;
+}
+
+#little-about span {
+    text-align: center;
+    font-family: var(--font-utama);
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: var(--warna-hitam);
+    padding: 1rem;
+}
+
+footer p {
+    font-family: var(--font-utama);
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+#footer-list-item img {
+    width: 5rem;
+    margin-right: 0.5rem;
+}
