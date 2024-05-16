@@ -1,0 +1,36 @@
+:root {
+    --warna-hitam: #031B3D;
+    --orange: #A5826C;
+    --putih: #F7E6DC;
+    --font-utama: 'Poppins', sans-serif;
+    --font-secondary: 'Langar'; 
+}
+
+footer {
+    background-color: var(--warna-hitam);
+    padding: 1rem;
+    width: 100%;
+}
+
+footer p {
+    font-family: var(--font-utama);
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+#footer-list-item img {
+    width: 5rem;
+    margin-right: 0.5rem;
+}

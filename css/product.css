@@ -1,0 +1,26 @@
+*, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 200vh;
+    background-color: var(--putih);
+}
+
+:root {
+    --warna-hitam: #031B3D;
+    --orange: #A5826C;
+    --putih: #F7E6DC;
+    --font-utama: 'Poppins', sans-serif;
+    --font-secondary: 'Langar'; 
+}
+
+.search-bar button {
+    background-image: url("../img/Search.png");
+    background-size: cover;
+    background-color: var(--warna-hitam);
+    margin-top: 9rem;
+    margin-bottom: 2px;
+    height: 2.7rem;
+}

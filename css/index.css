@@ -86,31 +86,3 @@ svg {
     font-family: var(--font-utama);
     font-size: 1.2rem;
 }
-
-footer {
-    background-color: var(--warna-hitam);
-    padding: 1rem;
-}
-
-footer p {
-    font-family: var(--font-utama);
-    color: white;
-}
-
-.footer-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#footer-list-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-}
-
-#footer-list-item img {
-    width: 5rem;
-    margin-right: 0.5rem;
-}
