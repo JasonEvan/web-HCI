@@ -1,0 +1,95 @@
+*, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 200vh;
+    background-color: var(--putih);
+}
+
+:root {
+    --warna-hitam: #031B3D;
+    --orange: #A5826C;
+    --putih: #F7E6DC;
+    --font-utama: 'Poppins', sans-serif;
+    --font-secondary: 'Langar'; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem;
+}
+
+.kanan {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main {
+    margin-top: 9rem;
+    margin-bottom: 2rem;
+}
+
+.row {
+    display: block;
+    white-space: nowrap;
+    font-family: var(--font-utama);
+    color: var(--warna-hitam);
+    margin-left: 1.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30rem;
+    height: 18rem;
+    background-color: var(--orange);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ffffffd2;
+    margin-bottom: 2rem;
+}
+
+.card section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reaction {
+    display: flex;
+    flex-direction: column;
+    max-width: 23rem;
+}
+
+.reaction div {
+    display: flex;
+    justify-content: center;
+}
+
+.reaction span {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.bintang {
+    display: inline;
+    width: 3.5rem;
+}
+
+.profile {
+    border-radius: 100%;
+    width: 6rem;
+    height: 6rem;
+}
+
+.card-text {
+    font-family: var(--font-utama);
+}
