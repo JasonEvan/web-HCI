@@ -5,22 +5,37 @@ const testiPage = document.getElementById('testi-page');
 const registerPage = document.getElementById('register');
 
 homePage.addEventListener('click', () => {
+    if (window.location.pathname.includes("/web-HCI")) {
+        window.location.href = '/web-HCI/index.html';
+    }
     window.location.href = '/index.html';
 });
 
 aboutPage.addEventListener('click', () => {
+    if (window.location.pathname.includes("/web-HCI")) {
+        window.location.href = '/web-HCI/page/about.html';
+    }
     window.location.href = '/page/about.html';
 });
 
 productPage.addEventListener('click', () => {
+    if (window.location.pathname.includes("/web-HCI")) {
+        window.location.href = '/web-HCI/page/product.html';
+    }
     window.location.href = '/page/product.html';
 });
 
 testiPage.addEventListener('click', () => {
+    if (window.location.pathname.includes("/web-HCI")) {
+        window.location.href = '/web-HCI/page/testimoni.html';
+    }
     window.location.href = '/page/testimoni.html';
 });
 
 registerPage.addEventListener('click', () => {
+    if (window.location.pathname.includes("/web-HCI")) {
+        window.location.href = '/web-HCI/page/register.html';
+    }
     window.location.href = '/page/register.html';
 });
 
