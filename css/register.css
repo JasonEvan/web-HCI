@@ -1,0 +1,84 @@
+*, body {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--orange);
+}
+
+:root {
+    --warna-hitam: #031B3D;
+    --orange: #A5826C;
+    --putih: #F7E6DC;
+    --font-utama: 'Poppins', sans-serif;
+    --font-secondary: 'Langar'; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 23rem;
+    height: max-content;
+    background-color: var(--putih);
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 1.1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    margin-bottom: 2rem;
+    font-family: var(--font-utama);
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.7rem;
+}
+
+.form-item input, .form-item select {
+    border: none;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+
+#containerRegis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#regis {
+    height: max-content;
+    width: 7rem;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #c5c3c3;
+    font-weight: bold;
+    font-family: var(--font-utama);
+}
