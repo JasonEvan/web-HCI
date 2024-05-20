@@ -3,8 +3,10 @@
     margin: 0;
 }
 
-body {
-    min-height: 200vh;
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: var(--putih);
 }
 
@@ -16,8 +18,14 @@ body {
     --font-secondary: 'Langar'; 
 }
 
+#service {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1.1rem;
@@ -43,7 +51,6 @@ main > img {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 22rem;
     height: 30rem;
     background-color: var(--warna-hitam);
@@ -52,4 +59,38 @@ main > img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #ffffffd2;
     margin-bottom: 2rem;
+}
+
+.card img {
+    border-radius: 100% 100% 0 0;
+    height: 500px;
+}
+
+.penjelasan {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: var(--font-utama);
+    font-weight: bold;
+    color: var(--orange);
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+    min-height: 200px;
+    width: 100%;
+    font-size: larger;
+    font-family: var(--font-utama);
+    color: var(--warna-hitam);
 }
