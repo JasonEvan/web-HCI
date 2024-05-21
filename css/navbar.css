@@ -12,6 +12,7 @@
     justify-content: space-between;
     width: 100%;
     height: auto;
+    padding: 0.7rem;
     background-color: var(--warna-hitam);
     position: fixed;
     top: 0;
@@ -45,6 +46,10 @@
     list-style-type: none;
 }
 
+.menu-item li {
+    cursor: pointer;
+}
+
 .menu {
     width: 6rem;
     margin-right: 0.5rem;
@@ -59,4 +64,57 @@
     border-radius: 40%;
     width: 7rem;
     height: 3rem;
+}
+
+#menu-icon {
+    display: none;
+}
+
+#navbar-responsive {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    flex-direction: column;
+    height: 100vh;
+    width: max-content;
+    background-color: var(--warna-hitam);
+    padding: 2rem;
+    color: white;
+    right: 0;
+}
+
+/* make a burger icon for responsive when under 768px */
+@media screen and (max-width: 768px) {
+    .menu-item {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+        margin-right: 1rem;
+    }
+
+    #navbar-responsive img {
+        margin-bottom: 3rem;
+        width: 3rem;
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+    .menu-item-responsive {
+        margin-top: 3rem;
+        list-style-type: none;
+    }
+
+    .menu-item-responsive li {
+        margin: 1rem;
+        cursor: pointer;
+    }
+
+    .menu-item-responsive hr {
+        width: 100%;
+        border: 1px solid var(--orange);
+    }
+    
 }
